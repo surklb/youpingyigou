@@ -1,0 +1,44 @@
+spring:
+  profiles:
+    active: dev
+---
+server:
+  port: 8002
+spring:
+  application:
+    name: PRODUCT-SERVICE
+  datasource:
+    jdbc.driver=com.mysql.jdbc.Driver
+    jdbc.url=jdbc:mysql:///youpingyigou
+    jdbc.user=root
+    jdbc.pwd=199761
+  profiles: dev
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka  #告诉服务提供者要把服务注册到哪儿#单机环境
+
+mybatis-plus:
+  mapper-locations: classpath:cn/bofan/youpingyigou/mapper/*Mapper.xml
+  type-aliases-package: cn.bofan.youpingyigou.domain
+---
+server:
+  port: 8003
+spring:
+  application:
+    name: PRODUCT-SERVICE-TEST
+  datasource:
+    jdbc.driver=com.mysql.jdbc.Driver
+    jdbc.url=jdbc:mysql:///youpingyigou
+    jdbc.user=root
+    jdbc.pwd=199761
+  profiles: test
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka  #告诉服务提供者要把服务注册到哪儿#单机环境
+mybatis-plus:
+  mapper-locations: classpath:cn/bofan/youpingyigou/mapper/*Mapper.xml
+  type-aliases-package: cn.bofan.youpingyigou.domain
+
+---
