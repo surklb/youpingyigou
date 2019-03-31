@@ -20,7 +20,7 @@ eureka:
 
 mybatis-plus:
   mapper-locations: classpath:cn/bofan/youpingyigou/mapper/*Mapper.xml
-  type-aliases-package: cn.bofan.youpingyigou.domain
+  type-aliases-package: cn.bofan.youpingyigou.domain,cn.bofan.youpingyigou.query
 
 
 ---
@@ -41,6 +41,6 @@ eureka:
       defaultZone: http://localhost:7001/eureka  #告诉服务提供者要把服务注册到哪儿#单机环境
 mybatis-plus:
   mapper-locations: classpath:cn/bofan/youpingyigou/mapper/*Mapper.xml
-  type-aliases-package: cn.bofan.youpingyigou.domain
+  type-aliases-package: cn.bofan.youpingyigou.domain,cn.bofan.youpingyigou.query
 
 ---
