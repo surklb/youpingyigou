@@ -21,6 +21,8 @@ zuul:
   routes:
     youpingyigou.serviceId: youpingyigou-plat
     youpingyigou.path: /youpingyigou/**
+    product.serviceId: product-plat
+    product.path: /product/**
 ---
 server:
   port: 9528
@@ -41,3 +43,5 @@ zuul:
   routes:
     youpingyigou.serviceId: youpingyigou-plat
     youpingyigou.path: /youpingyigou/**
+    product.serviceId: product-plat
+    product.path: /product/**
