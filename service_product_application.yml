@@ -9,7 +9,7 @@ spring:
     name: PRODUCT-SERVICE
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    urrl: jdbc.url:jdbc:mysql:///youpingyigou
+    url: jdbc.url:jdbc:mysql:///youpingyigou
     username: root
     password: 199761
   profiles: dev
@@ -28,7 +28,7 @@ spring:
     name: PRODUCT-SERVICE-TEST
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    urrl: jdbc.url:jdbc:mysql:///youpingyigou
+    url: jdbc.url:jdbc:mysql:///youpingyigou
     username: root
     password: 199761
   profiles: test
