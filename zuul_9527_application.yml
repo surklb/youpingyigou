@@ -21,7 +21,7 @@ zuul:
   routes:
     youpingyigou.serviceId: youpingyigou-plat
     youpingyigou.path: /youpingyigou/**
-    product.serviceId: product-plat
+    product.serviceId: product-service
     product.path: /product/**
 ---
 server:
@@ -43,5 +43,5 @@ zuul:
   routes:
     youpingyigou.serviceId: youpingyigou-plat
     youpingyigou.path: /youpingyigou/**
-    product.serviceId: product-plat
+    product.serviceId: product-service
     product.path: /product/**
