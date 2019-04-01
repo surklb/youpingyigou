@@ -23,6 +23,8 @@ zuul:
     youpingyigou.path: /youpingyigou/**
     product.serviceId: product-service
     product.path: /product/**
+    common.serviceId: common-service
+    common.path: /common/**
 ---
 server:
   port: 9528
@@ -45,3 +47,5 @@ zuul:
     youpingyigou.path: /youpingyigou/**
     product.serviceId: product-service
     product.path: /product/**
+    common.serviceId: common-service
+    common.path: /common/**
