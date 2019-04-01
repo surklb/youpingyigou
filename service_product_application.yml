@@ -20,8 +20,6 @@ eureka:
 mybatis-plus:
   mapper-locations: classpath:cn/bofan/youpingyigou/mapper/*Mapper.xml
   type-aliases-package: cn.bofan.youpingyigou.domain,cn.bofan.youpingyigou.query
-
-
 ---
 server:
   port: 8003
