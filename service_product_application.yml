@@ -3,7 +3,6 @@ spring:
     active:
       - dev
 ---
-
 server:
   port: 8002
 spring:
@@ -21,7 +20,7 @@ eureka:
       defaultZone: http://localhost:7001/eureka
 feign:
   hystrix:
-    enabled: true #开启断路器	
+    enabled: true #开启断路器
   instance:
     prefer-ip-address: true #显示客户端真实ip
 mybatis-plus:
