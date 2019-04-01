@@ -11,8 +11,7 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:7001/eureka  #告诉服务提供者要把服务注册到哪儿 #单机环境
-
+      defaultZone: http://localhost:7001/eureka
 ---
 server:
   port: 8002
@@ -23,6 +22,5 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:7001/eureka  #告诉服务提供者要把服务注册到哪儿 #单机环境
-
+      defaultZone: http://localhost:7001/eureka
 ---

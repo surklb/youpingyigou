@@ -8,10 +8,10 @@ spring:
   application:
     name: PRODUCT-SERVICE
   datasource:
-    jdbc.driver=com.mysql.jdbc.Driver
-    jdbc.url=jdbc:mysql:///youpingyigou
-    jdbc.user=root
-    jdbc.pwd=199761
+    driver-class-name: com.mysql.jdbc.Driver
+    urrl: jdbc.url:jdbc:mysql:///youpingyigou
+    username: root
+    password: 199761
   profiles: dev
 eureka:
   client:
@@ -27,10 +27,10 @@ spring:
   application:
     name: PRODUCT-SERVICE-TEST
   datasource:
-    jdbc.driver=com.mysql.jdbc.Driver
-    jdbc.url=jdbc:mysql:///youpingyigou_test
-    jdbc.user=root
-    jdbc.pwd=199761
+    driver-class-name: com.mysql.jdbc.Driver
+    urrl: jdbc.url:jdbc:mysql:///youpingyigou
+    username: root
+    password: 199761
   profiles: test
 eureka:
   client:
