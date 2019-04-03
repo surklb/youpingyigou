@@ -20,7 +20,7 @@ eureka:
       defaultZone: http://localhost:7001/eureka
 feign:
   hystrix:
-    enabled: true #开启断路器
+    enabled: true 
 mybatis-plus:
   mapper-locations: classpath:cn/bofan/youpingyigou/mapper/*Mapper.xml
   type-aliases-package: cn.bofan.youpingyigou.domain,cn.bofan.youpingyigou.query
@@ -42,7 +42,7 @@ eureka:
       defaultZone: http://localhost:7001/eureka
 feign:
   hystrix:
-    enabled: true #开启断路器
+    enabled: true 
 mybatis-plus:
   mapper-locations: classpath:cn/bofan/youpingyigou/mapper/*Mapper.xml
   type-aliases-package: cn.bofan.youpingyigou.domain,cn.bofan.youpingyigou.query
