@@ -23,7 +23,7 @@ zuul:
     youpingyigou.path: /youpingyigou/**
     product.serviceId: product-service
     product.path: /product/**
-    common.serviceId: common-service
+    common.serviceId: common-privoder
     common.path: /common/**
 ---
 server:
@@ -47,5 +47,5 @@ zuul:
     youpingyigou.path: /youpingyigou/**
     product.serviceId: product-service
     product.path: /product/**
-    common.serviceId: common-service
+    common.serviceId: common-privoder
     common.path: /common/**
